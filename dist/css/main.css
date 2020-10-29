@@ -1616,6 +1616,11 @@ textarea.input {
 
 .widgets-footer__column {
   padding: 0 15px;
+  margin: 0px 0px 30px 0px;
+}
+
+.widgets-footer__column:last-child {
+  margin: 0px 0px 0px 0px;
 }
 
 .widgets-footer__column img {
@@ -2735,6 +2740,10 @@ body.lock {
 .page-menu__lines {
   position: relative;
   height: 16px;
+}
+
+.page-menu__body {
+  display: none;
 }
 
 .page-menu__list > li {

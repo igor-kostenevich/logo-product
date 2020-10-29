@@ -185,7 +185,10 @@
     // .widgets-footer__column
     &__column {
         padding: 0 15px;
-
+        margin: 0px 0px 30px 0px;
+        &:last-child {
+            margin: 0px 0px 0px 0px;
+        }
         img {
             max-width: 100%;
         }

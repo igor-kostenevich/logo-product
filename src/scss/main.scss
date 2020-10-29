@@ -216,7 +216,9 @@ body.lock {
 	}
 
 	// .page-menu__body
-	&__body {}
+	&__body {
+		display: none;
+	}
 
 	// .page-menu__list
 	&__list {

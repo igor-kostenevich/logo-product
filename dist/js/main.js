@@ -832,8 +832,6 @@ if (document.querySelector('.page-menu')) {
 		menuPageBurger.classList.toggle('active');
 	});
 }
- 
-$('.page-menu__body').hide();
 
 $('.page-menu__burger').click(function () {
 	$('.page-menu__body').slideToggle();
