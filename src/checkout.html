@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('./template/_head.html', {"title" : "Оформление заказа"})
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include('./template/_header.html')
+
+        <main class="content">
+            <div class="content__container container">
+                <aside class="content__side">
+                    <!-- PAGE MENU -->
+                    @@include('./template/_pageMenu.html')
+                    <!-- ! ======== -->
+
+                    <div data-da="content__box,last,992" class="content__side-wrapper">
+                        <!-- NEWS -->
+                        @@include('./template/_news.html')
+                        <!-- ! ======= -->
+
+                        <!-- REVIEWS -->
+                        @@include('./template/_reviews.html')
+                        <!-- ! ======= -->
+                    </div>
+
+                </aside>
+                <div class="content__box">
+                    <form action="#" class="content__search search-page">
+                        <div class="search-page__select">
+                            <div class="search-page__title"><span>Везде</span><span data-text="Выбрано:" class="search-page__quantity"></span></div>
+                            <div class="search-page__categories categories-search">
+                                <div class="categories-search__row">
+                                    <div class="categories-search__column">
+                                        <ul class="categories-search__list">
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Беговые дорожки</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Эллиптические тренажеры</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Велотренажеры</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Гребные тренажеры</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Вибромассажеры</span></span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="categories-search__column">
+                                        <ul class="categories-search__list">
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Теннисные столы </span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Баскетбольные щиты и стойки</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Массажные кресла</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Массажные столы</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Силовые тренажеры</span></span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="categories-search__column">
+                                        <ul class="categories-search__list">
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Батуты</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Детские городки</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Уличные спортивные комплексы</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Дачная мебель</span></span>
+                                                </label>
+                                            </li>
+                                            <li>
+                                                <label class="categories-search__checkbox checkbox">
+                                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]" />
+                                                    <span class="checkbox__text"><span>Аксессуары</span></span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="search-page__input">
+                            <input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
+                        </div>
+                        <button type="submit" class="search-page__btn btn">Найти</button>
+
+                    </form>
+                    <nav class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li><a href="https://igor-kostenevich.github.io/logo" class="breadcrumbs__link">Главная</a></li>
+                            <li><span class="breadcrumbs__item">оформление</span></li>
+                        </ul>
+                    </nav>
+                    <!-- Checkout section -->
+                    <form action="#" class="checkout">
+                        <div class="checkout__title title-checkout">Оформление заказа</div>
+                        <div class="checkout__content content-checkout tabs">
+                            <nav class="content-checkout__nav">
+                                <div class="content-checkout__item tab__navitem active"><span>Быстрый заказ</span></div>
+                                <div class="content-checkout__item tab__navitem"><span>Курьером по москве и мо</span></div>
+                                <div class="content-checkout__item tab__navitem"><span>Доставка в регионы</span></div>
+                            </nav>
+                            <div class="content-checkout__body">
+                                <div class="content-checkout__block tab__item active">
+                                    <div class="content-checkout__form form-checkout">
+                                        <div class="form-checkout__column">
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label"> Имя:&nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req literal" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Моб. телефон:&nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="tel" name="form[]" data-value=" " class="input req phone" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Ваш E-mail:&nbsp; <span>*</span> </div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label"></div>
+                                                <div class="form-checkout__input">
+                                                    <label class="checkbox">
+                                                        <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]"/>
+                                                        <span class="checkbox__text"><span>Подписаться на новости и скидки</span></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="form-checkout__column">
+                                            <div class="form-checkout__text">
+                                                <p><span>*</span>Поля, обязательные для заполнения</p>
+                                                <p>Отправка товара производится только после 100% оплаты товара. Стоимость доставки возможно оплатить при получении заказа.</p>
+                                                <p><span>*</span>Интернет-магазин не несет ответственности за задержку доставки заказа, связанную с работой курьерских служб DPD  и EMS Почты России.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-checkout__block tab__item"></div>
+                                <div class="content-checkout__block tab__item">
+                                    <div class="content-checkout__form form-checkout">
+                                        <div class="form-checkout__column">
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label"> Фамилия:&nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req literal" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label"> Имя:&nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req literal" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label"> Отчество:&nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req literal" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Моб. телефон:&nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="tel" name="form[]" data-value=""  class="input req phone" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Ваш E-mail: &nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Способ оплаты: </div>
+                                                <div class="form-checkout__input">
+                                                    <select name="form[]" class="form-checkout-sel">
+                                                        <option value="1" selected="selected">Через Сбербанк</option>
+                                                        <option value="2">Наличными</option>
+                                                        <option value="2">Наложенный платеж</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Индекс &nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req numeric" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Город &nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req literal"/>
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Адрес доставки: &nbsp; <span>*</span></div>
+                                                <div class="form-checkout__input">
+                                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label">Комментарии: </div>
+                                                <div class="form-checkout__input">
+                                                    <textarea name="" id="" class="input"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="form-checkout__line">
+                                                <div class="form-checkout__label"></div>
+                                                <div class="form-checkout__input">
+                                                    <label class="checkbox">
+                                                        <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]"/>
+                                                        <span class="checkbox__text"><span>Подписаться на новости и скидки</span></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="form-checkout__column">
+                                            <div class="form-checkout__text">
+                                                <p><span>*</span>Поля, обязательные для заполнения</p>
+                                                <p>Отправка товара производится только после 100% оплаты товара. Стоимость доставки возможно оплатить при получении заказа.</p>
+                                                <p><span>*</span>Интернет-магазин не несет ответственности за задержку доставки заказа, связанную с работой курьерских служб DPD  и EMS Почты России.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout__order order-checkout">
+                            <div class="order-checkout__title title-checkout">Ваш заказ</div>
+                            <div class="order-checkout__items">
+                                <div class="order-checkout__item item-order">
+                                    <div class="item-order__content">
+                                        <a href="" class="item-order__image">
+                                            <img src="./dist/img/products/02.jpg" alt="">
+                                        </a>
+                                        <div class="item-order__body">
+                                            <div class="item-order__title"><span>BH Fitness F1 G6414V</span> Беговая дорожка</div>
+                                            <div class="item-order__price rub">64 990</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-order__quantity">
+                                        <div class="quantity">
+                                            <div class="quantity__btn dwn"></div>
+                                            <div class="quantity__input-wrapp">
+                                                <input class="quantity__input numeric" autocomplete="off" type="text" name="form[]" value="1" maxlength="4" />
+                                            </div>
+                                            <div class="quantity__btn up"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item-order__total">
+                                        <div class="item-order__label">Всего: </div>
+                                        <div class="item-order__price rub">64 990 </div>
+                                    </div>
+                                    <a href="" class="item-order__delete"></a>
+                                </div>
+                                <div class="order-checkout__item item-order">
+                                    <div class="item-order__content">
+                                        <a href="" class="item-order__image">
+                                            <img src="./dist/img/products/03.jpg" alt="">
+                                        </a>
+                                        <div class="item-order__body">
+                                            <div class="item-order__title"><span>BH Fitness F1 G6414V</span> Беговая дорожка</div>
+                                            <div class="item-order__price rub">64 990</div>
+                                        </div>
+                                    </div>
+                                    <div class="item-order__quantity">
+                                        <div class="quantity">
+                                            <div class="quantity__btn dwn"></div>
+                                            <div class="quantity__input-wrapp">
+                                                <input class="quantity__input numeric" autocomplete="off" type="text" name="form[]" value="1" maxlength="4" />
+                                            </div>
+                                            <div class="quantity__btn up"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item-order__total">
+                                        <div class="item-order__label">Всего: </div>
+                                        <div class="item-order__price rub">64 990 </div>
+                                    </div>
+                                    <a href="" class="item-order__delete"></a>
+                                </div>
+                                <div class="order-checkout__item item-order">
+                                    <div class="item-order__content">
+                                        <a href="" class="item-order__image">
+                                            <img src="./dist/img/products/02.jpg" alt="">
+                                        </a>
+                                        <div class="item-order__body">
+                                            <div class="item-order__title"><span>BH Fitness F1 G6414V</span> Беговая дорожка</div>
+                                            <div class="item-order__price rub">64 990 </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-order__quantity">
+                                        <div class="quantity">
+                                            <div class="quantity__btn dwn"></div>
+                                            <div class="quantity__input-wrapp">
+                                                <input class="quantity__input numeric" autocomplete="off" type="text" name="form[]" value="1" maxlength="4" />
+                                            </div>
+                                            <div class="quantity__btn up"></div>
+                                        </div>
+                                    </div>
+                                    <div class="item-order__total">
+                                        <div class="item-order__label">Всего: </div>
+                                        <div class="item-order__price rub">64 990 </div>
+                                    </div>
+                                    <a href="" class="item-order__delete"></a>
+                                </div>
+                            </div>
+                            <div class="order-checkout__footer">
+                                <div class="order-checkout__total">Итого: <span class="rub">120 000 </span></div>
+                                <button type="submit" class="order-checkout__btn">Оформить заказ</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            @@include('./template/_infoMenu.html')
+        </main>
+
+        @@include('./template/_footer.html')
+    </div>
+
+    <script src="./dist/js/libs/jquery-3.4.1.min.js"></script>
+    <script src="/dist/js/libs/jquery.nicescroll.min.js"></script>
+    <script src="./dist/js/libs/jquery.inputmask.bundle.min.js"></script>
+    <script src="./dist/js/libs/slick.min.js"></script>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
